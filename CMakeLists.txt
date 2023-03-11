@@ -44,6 +44,9 @@ find_package(fmt REQUIRED)
 target_link_libraries(project_options INTERFACE fmt::fmt)
 
 add_subdirectory(task1)
+add_subdirectory(task2)
+add_subdirectory(task3)
+add_subdirectory(task4)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json
      ${CMAKE_SOURCE_DIR}/compile_commands.json COPY_ON_ERROR SYMBOLIC)
