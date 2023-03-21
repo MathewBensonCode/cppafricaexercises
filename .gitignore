@@ -1,3 +1,5 @@
 .cache/
 gcm.cache/
 compile_commands.json
+/task*/task?
+/task?/part?
