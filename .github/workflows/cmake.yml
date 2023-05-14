@@ -51,16 +51,16 @@ jobs:
       
     - name: Dice Task - Part A
       working-directory: ${{github.workspace}}/build
-      run: ./4_dice_task/PartA
+      run: ./4_dice_task/partA
       
     - name: Dice Task - Part B
       working-directory: ${{github.workspace}}/build
-      run: ./4_dice_task/PartB  
+      run: ./4_dice_task/partB  
 
     - name: Dice Task - Part C
       working-directory: ${{github.workspace}}/build
-      run: ./4_dice_task/PartC
+      run: ./4_dice_task/partC
       
     - name: Dice Task - Part D
       working-directory: ${{github.workspace}}/build
-      run: ./4_dice_task/PartD
+      run: ./4_dice_task/partD
