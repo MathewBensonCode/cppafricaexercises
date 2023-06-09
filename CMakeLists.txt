@@ -45,6 +45,7 @@ add_subdirectory(1_time_task)
 add_subdirectory(2_string_task)
 add_subdirectory(3_boxes_task)
 add_subdirectory(4_dice_task)
+add_subdirectory(5_streams_task)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json
      ${CMAKE_SOURCE_DIR}/compile_commands.json COPY_ON_ERROR SYMBOLIC)
