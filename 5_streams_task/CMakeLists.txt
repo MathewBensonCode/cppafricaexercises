@@ -7,3 +7,13 @@ add_executable(stdcinversion stdcinversion.cpp)
 target_link_libraries(stdcinversion PRIVATE project_options project_warnings)
 
 CreateTargetLink(stdcinversion)
+
+add_executable(stdalgoversion stdalgoversion.cpp)
+target_link_libraries(stdalgoversion PRIVATE project_options project_warnings)
+
+CreateTargetLink(stdalgoversion)
+
+add_executable(rangeviewversion rangeviewversion.cpp)
+target_link_libraries(rangeviewversion PRIVATE project_options project_warnings)
+
+CreateTargetLink(rangeviewversion)

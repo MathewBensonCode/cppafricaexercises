@@ -10,7 +10,7 @@ Construction began when the first cornerstone was laid in October of 1792. Altho
 
 int main() {
   std::istringstream inputstream{inputstring};
-  std::map<std::string, std::size_t> word_store{};
+  std::map<std::string, std::size_t, std::less<>> word_store{};
 
   std::string word;
   while (inputstream >> word) {
